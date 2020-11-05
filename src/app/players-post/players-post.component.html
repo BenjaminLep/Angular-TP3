@@ -1,0 +1,22 @@
+
+<h2>Enregistrement d'un joueur</h2>
+<div>
+
+    <input type="text" placeholder="Nom"
+        [(ngModel)]="lastname">
+    
+    <input type="text" placeholder="Prénom"
+        [(ngModel)]="firstname">
+
+    <select [(ngModel)]="position">
+        <option>gardien</option>
+        <option>défenseur</option>
+        <option>milieu</option>
+        <option>attaquant</option>
+    </select>
+
+    <input type="number" placeholder="age"
+        [(ngModel)]="age" >
+
+    <button type='submit'>Ajouter joueur</button>
+</div>
